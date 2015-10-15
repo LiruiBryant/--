@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="13" height="6" tilewidth="51" tileheight="54">
+ <tileset firstgid="1" name="pvz_map01" tilewidth="51" tileheight="54">
+  <image source="pvz_map01.jpg" width="684" height="372"/>
+  <tile id="15">
+   <properties>
+    <property name="buildable" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="layer01" width="13" height="6">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACw3Dh1ZBAQAA0EdGIjSUGU2KFgqVTSr0/5/j3nNuKAiCsHtGjBoz7r4JD0ya8tC0GbMeeeyJp+Y889y8BYuWLFvxwqo1L73y2htvvbNuw3sfbNry0SefffHVth27vvluz74DP/z0y6Ejx06cOnPuwqXfrvzx1z/Xbtz67w7xFpB6OAEAAA==
+  </data>
+ </layer>
+ <objectgroup name="road" width="13" height="6" visible="0">
+  <object x="549" y="37" width="19" height="15"/>
+  <object x="570" y="107" width="17" height="13"/>
+  <object x="74" y="102" width="15" height="17"/>
+  <object x="86" y="228" width="13" height="22"/>
+  <object x="572" y="231" width="20" height="18"/>
+ </objectgroup>
+ <objectgroup name="tower" width="13" height="6">
+  <object x="313" y="34" width="23" height="22"/>
+  <object x="141" y="131" width="18" height="23"/>
+  <object x="500" y="132" width="22" height="25"/>
+ </objectgroup>
+</map>

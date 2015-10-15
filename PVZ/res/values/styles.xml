@@ -1,0 +1,32 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="init_game"
+        parent="@android:style/Theme.Dialog"
+        >
+        <item name="android:windowFrame">@null</item><!-- 边框去掉 -->
+        <item name="android:windowIsFloating">true</item><!-- 悬浮在Activity智商 -->
+        <item name="android:windowIsTranslucent">false</item><!-- 透明度false是一点都不透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/out</item>
+        <item name="android:backgroundDimEnabled">false</item><!-- 点击其他区域对话框是否消失 -->
+        
+        
+    </style>
+
+</resources>
